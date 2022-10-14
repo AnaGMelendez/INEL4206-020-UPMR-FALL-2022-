@@ -8,4 +8,4 @@ main:
     syscall
 
     li $vo, 10 #exit syscall
-    Syscall
+    syscall
