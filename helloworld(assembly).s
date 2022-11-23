@@ -7,5 +7,5 @@ main:
     la $a0, hello # load address of string to print into a0
     syscall
 
-    li $vo, 10 #exit syscall
+    li $v0, 10 #exit syscall
     syscall
